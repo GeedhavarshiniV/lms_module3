@@ -1,0 +1,35 @@
+git init
+```
+
+---
+
+### Step 3: Create/Update .gitignore
+
+**VERY IMPORTANT:** Before committing anything!
+
+1. In VS Code, create a file `.gitignore` in the **root folder** (next to backend and lms-module2-ui)
+
+**Add this to `.gitignore`:**
+```
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.test
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+```
